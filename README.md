@@ -1,3 +1,6 @@
+
+![The fool tarot card](public/images/the_fool.png)
+
 # Fool's Guide
 
 A tarot card fortune telling companion for those of us who need an extra guide in life. This web application uses the classic [Rider-Waite Tarot Deck](http://www.aeclectic.net/tarot/cards/rider-waite/) to help users with answers to their pressing questions, provides daily meditative support, and comes with a glossery of the entire 72 deck of cards for those who wish to further their knowledge and understanding of Tarot. 
