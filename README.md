@@ -41,7 +41,7 @@ Follow the below instructins to get a copy of *Fool's Guide* working on your loc
 
 This project was built with Node.js. You will need to have Node installed on your machine to successfully view the project. You can install the latest version of Node [here](https://nodejs.org/en/download/).
 
-Once you have Node installed, use NPM (Node Project Manager), to install the dependencies in listed in the _package.json_ file. Instructions below.
+Once you have Node installed, use NPM (Node Project Manager), to install the dependencies listed in the _package.json_ file. Instructions below.
 
 ### Installing
 
