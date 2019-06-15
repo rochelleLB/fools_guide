@@ -1,0 +1,15 @@
+{
+  "name": "fools-guide",
+  "version": "1.0.0",
+  "description": "A fortune telling web application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rochelle Burrows",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.3"
+  }
+}
