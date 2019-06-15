@@ -32,7 +32,7 @@ Eventually, users should be able to save their readings and be able to refer to 
 
 ## Getting Started
 
-Follow these instructins to get a copy of *Fool's Guide* working on your local machine. 
+Follow the below instructins to get a copy of *Fool's Guide* working on your local machine. 
 
 ### Prerequisites
 
@@ -42,34 +42,28 @@ Once you have Node installed, use NPM (Node Project Manager), to install the dep
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Install Express
 
 ```
-Give the example
+npm install express
 ```
 
-And repeat
+Install Pug
 
 ```
-until finished
+npm install pug
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-
 
 ## Built With
 
-* [Node.js](http://www.dropwizard.io/1.0.2/docs/) - Back End 
-* [Express.js](https://maven.apache.org/) - Web Framework
-* [Pug](https://rometools.github.io/rome/) -Templating
-* [NPM](https://www.npmjs.com/) - Project Management
+* [Node.js](https://nodejs.org/en/) - Back End 
+* [Express.js](https://expressjs.com/) - Web Framework
+* [Pug](https://pugjs.org/api/getting-started.html) -Templating
+* [NPM](https://www.npmjs.com) - Project Management
 
 ## Authors
 
-* **Rochelle Burrows** - *Initial work* - [PurpleBooth](https://github.com/rochelleLB)
+* **Rochelle Burrows** - *Initial work* - [GitHub](https://github.com/rochelleLB)
 
 ## Acknowledgments
 
