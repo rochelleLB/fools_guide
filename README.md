@@ -66,7 +66,7 @@ npm install pug
 
 ## Authors
 
-* **Rochelle Burrows** - *Initial work* - [GitHub](https://github.com/rochelleLB)
+* **Rochelle Burrows** - [GitHub](https://github.com/rochelleLB)
 
 ## Acknowledgments
 
