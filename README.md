@@ -69,7 +69,7 @@ To view the project, navigate to http://localhost:3000 in your browser.
 
 ## Authors
 
-* **Rochelle Burrows** - *Initial work* - [GitHub](https://github.com/rochelleLB)
+* **Rochelle Burrows** - [GitHub](https://github.com/rochelleLB)
 
 ## Acknowledgments
 
