@@ -29,7 +29,7 @@ The card browsing feature is a glossery of the cards. All 72 cards are accessibl
 
 ## Stretch Goals 
 
-- [ ] Saved spreads
+- [ ] Users should be able to save spreads
 - [ ] Refactor front-end using React
 
 ## Getting Started
