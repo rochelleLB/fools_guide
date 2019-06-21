@@ -29,9 +29,8 @@ The card browsing feature is a glossery of the cards. All 72 cards are accessibl
 
 ## Stretch Goals 
 
-### Saved Spreads 
-
-Eventually, users should be able to save their readings and be able to refer to them again later. 
+- [ ] Saved spreads
+- [ ] Refactor front-end using React
 
 ## Getting Started
 
@@ -56,6 +55,10 @@ Install Pug
 ```
 npm install pug
 ```
+
+### To View
+
+To view the project, navigate to http://localhost:3000 in your browser. 
 
 ## Built With
 
