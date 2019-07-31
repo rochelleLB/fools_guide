@@ -31,6 +31,7 @@ The card browsing feature is a glossery of the cards. All 72 cards are accessibl
 
 - [ ] Users should be able to save spreads
 - [ ] Refactor front-end using React
+- [ ] Search feature on the browse page
 
 ## Getting Started
 
@@ -55,6 +56,20 @@ Install Pug
 ```
 npm install pug
 ```
+
+Install Nodemon
+- Use nodemon to automatically restart the server. 
+
+```
+npm install nodemon
+```
+
+Alternatively, run:
+
+```
+node app.js
+```
+In the console from the Fools Guide directory. 
 
 ### To View
 
