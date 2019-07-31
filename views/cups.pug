@@ -1,0 +1,9 @@
+extends tarot-layout
+  
+block main
+  h1 Cups
+  p "The Suit of Cups is associated with the element of water. Water is fluid, agile and ‘in flow' but it's also very powerful and formative. It can be soft and gentle, like waves lapping against the sandy shore, or it can be powerful and even forceful, like a raging river."
+  p - Biddy Tarot
+    .card
+      for card in cups 
+        p #{card.name}

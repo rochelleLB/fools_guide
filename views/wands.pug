@@ -1,0 +1,9 @@
+extends tarot-layout
+  
+block main
+  h1 Wands
+  p "The Suit of Wands Tarot card meanings are associated with primal energy, spirituality, inspiration, determination, strength, intuition, creativity, ambition and expansion, original thought and the seeds through which life springs forth."
+  p - Biddy Tarot
+    .card
+      for card in wands 
+        p #{card.name}

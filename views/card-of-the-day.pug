@@ -1,4 +1,16 @@
 extends tarot-layout
   
 block main
-    h1 This is your card of the day!!!!
+    h1 Card of the Day
+    p Get a glimpse into what your day might look like. 
+    .card-template
+      if cards[0].suit
+        h2 #{cards[0].name} 
+        p Number: #{cards[0].value}
+        p Suit: #{cards[0].suit}
+        p Meaning: #{cards[0].meaning_up}
+      else
+        h2 #{cards[0].name} 
+        p Number: #{cards[0].value}
+        p Type: #{cards[0].type} arcana
+        p Meaning: #{cards[0].meaning_up}

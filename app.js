@@ -1,6 +1,5 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const request = require("request");
 
 const app = express();
 
@@ -8,37 +7,33 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.set("view engine", "pug");
 
-//EKelen tarot API
+//Main Routes
+const homeRoute = require("./routes/home");
+const dailyCardRoute = require("./routes/card-of-the-day");
+const browseCardsRoute = require("./routes/browse-cards");
+const getAReadingRoute = require("./routes/tarot-reading");
+const aboutRoute = require("./routes/about");
 
-app.get("/", (req, res) => {
-  res.render("index");
-});
+//Sperate Card Suite Pages
+const majorArcanaRoute = require("./routes/major-arcana/major-arcana");
+const cupsRoute = require("./routes/cups/cups");
+const pentaclesRoute = require("./routes/pentacles/pentacles");
+const swordsRoute = require("./routes/swords/swords");
+const wandsRoute = require("./routes/wands/wands");
 
-app.get("/card-of-the-day", (req, res) => {
-  res.render("card-of-the-day");
-});
+//Connecting main routes to App.js
+app.use(homeRoute);
+app.use(dailyCardRoute);
+app.use(browseCardsRoute);
+app.use(getAReadingRoute);
+app.use(aboutRoute);
 
-app.get("/tarot-reading", (req, res) => {
-  res.render("tarot-reading");
-});
-
-app.get("/browse-cards", (req, res) => {
-  const tarotDB = {
-    url: `https://rws-cards-api.herokuapp.com/api/v1/cards`
-  };
-  request(tarotDB, (error, response, body) => {
-    // temp bodyParser
-    let cards = JSON.parse(body);
-    // to rename later
-    let tarotCards = cards.cards;
-    console.log(tarotCards[0].name);
-    res.render("browse-cards", { tarotCards: tarotCards });
-  });
-});
-
-app.get("/about", (req, res) => {
-  res.render("about");
-});
+//Connecting card suit routes to app.js
+app.use(majorArcanaRoute);
+app.use(cupsRoute);
+app.use(pentaclesRoute);
+app.use(swordsRoute);
+app.use(wandsRoute);
 
 app.listen(3000, () => {
   console.log("The server is running!");

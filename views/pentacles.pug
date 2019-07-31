@@ -1,0 +1,9 @@
+extends tarot-layout
+  
+block main
+  h1 Pentacles
+  p "The Suit of Pentacles Tarot cards deal with the physical or external level of consciousness and thus mirror the outer situations of your health, finances, work, and creativity. They have to do with what we make of our outer surroundings – how we create it, shape it, transform it and grow it. On a more esoteric level, Pentacles are associated with the ego, self-esteem and self-image."
+  p - Biddy Tarot
+    .card
+      for card in pentacles 
+        p #{card.name}

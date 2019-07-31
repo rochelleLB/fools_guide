@@ -1,0 +1,9 @@
+extends tarot-layout
+  
+block main
+  h1 Swords
+  p "The Suit of Swords Tarot cards deal with the mental level of consciousness that is centered around the mind and the intellect. Swords mirror the quality of mind present in your thoughts, attitudes, and beliefs."
+  p - Biddy Tarot
+    .card
+      for card in swords 
+        p #{card.name}

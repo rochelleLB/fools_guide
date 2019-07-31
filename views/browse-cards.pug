@@ -4,6 +4,16 @@ block main
   form
     span Search the cards:
     input(type='text')
-  for card in tarotCards
-    p #{card.name}
+  .majorArcana
+      a(href='/marjor-arcana') Major Arcana
+  .pentacles
+      a(href='/pentacles') Pentacles
+  .cups
+      a(href='/cups') Cups
+  .swords
+      a(href='/swords') Swords
+  .wands
+      a(href='/wands') Wands
+      
+
   
