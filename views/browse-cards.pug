@@ -1,0 +1,9 @@
+extends tarot-layout
+  
+block main
+  form
+    span Search the cards:
+    input(type='text')
+  for card in tarotCards
+    p #{card.name}
+  
